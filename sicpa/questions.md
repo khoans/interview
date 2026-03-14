@@ -59,3 +59,5 @@ which quer(ies) return the list of employees who are not managers?
     Đã có khi nào bạn gặp trường hợp bạn đánh index nhưng không có kết quả nhanh như mong đợi chưa
 
 51. Thể are N people who are attending a quiz. The quiz needs two people per team. All the members should take part in the quiz and the teams should be divided accordingly. In how many different ways team can be formed in this scenario. Out put, a single integer representing the number of different teams that can be formed. If teams cannot be formed, output 0. 
+
+52. Partition page,rows, Hiểu thật sâu về index , các loại index , cơ chế hoạt động , phân tích kế hoạch thực thi câu lệnh , scale DB , dữ liệu nóng lạnh ... Design DB
