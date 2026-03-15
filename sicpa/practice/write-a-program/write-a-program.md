@@ -6,7 +6,7 @@
 
 **2.** Write a program to find the second smallest element in a list.
 
-**3.** Write a program to find the third largest element in a list.
+**3.** Write a program to find the nth largest element in a list.
 
 **4.** Write a program to find all duplicate elements in a list.
 
