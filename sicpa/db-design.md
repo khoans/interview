@@ -1,4 +1,4 @@
-# 50 Database Design Interview Questions
+ # 50 Database Design Interview Questions
 
 ## Questions 1-10: Basic Entity Relationships
 
