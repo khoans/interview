@@ -4,9 +4,12 @@ You're building a system where configuration settings (database URL, API keys, f
 ```Java
 public class SystemConfig {
     private static volatile SystemConfig instance;
-    
     private SystemConfig() {
         loadConfigs();
+    }
+    
+    private void loadConfigs() {
+        // logic
     }
     
     public static SystemConfig getInstance() {
@@ -14,19 +17,20 @@ public class SystemConfig {
             synchronized (SystemConfig.class) {
                 if (instance == null) {
                     instance = new SystemConfig();
+                    return instance;
                 }
             }
         }
-        return instance; 
+        return instance;
     }
 }
 ```
 
-Alternative:
+
+Alternative
 
 ```Java
 public class SystemConfig {
-    
     private SystemConfig() {
         loadConfigs();
     }
@@ -35,12 +39,12 @@ public class SystemConfig {
         // Logic
     }
     
-    private static class Holder {
-        private static final SystemConfig INSTANCE = new SystemConfig();
-    }
-    
     public static SystemConfig getInstance() {
         return Holder.INSTANCE;
+    }
+    
+    private static class Holder {
+        private static final SystemConfig INSTANCE = new SystemConfig();
     }
 }
 ```

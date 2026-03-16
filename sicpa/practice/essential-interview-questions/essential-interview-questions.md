@@ -12,7 +12,7 @@
 7. Can you override a static method? Why or why not?
 8. What is the difference between composition and inheritance?
 9. What is covariant return type?
-10. What is the Liskov Substitution Principle?
+10. What is solid principle and give example?
 
 ### Java Basics (11-20)
 11. Is Java pass-by-value or pass-by-reference? Explain.
