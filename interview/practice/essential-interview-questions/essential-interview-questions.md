@@ -408,17 +408,17 @@
 317. What is the red-green-refactor cycle?
 318. What makes a good unit test?
 319. What should you NOT unit test?
-320. What is code coverage?
+320. How should you write code that is unit testable?
 
 ### Mocking (321-328)
 321. What is mocking?
 322. What is Mockito?
-323. What is the difference between mock and spy?
+323. What is the difference between mock and spy and stub?
 324. What is @Mock annotation?
 325. What is @InjectMocks annotation?
 326. What is when().thenReturn()?
 327. What is verify() method?
-328. What is argument captor?
+328. What is argument captor? How do you test with different arguments ?
 
 ### Integration Testing (329-336)
 329. What is @SpringBootTest?
@@ -487,7 +487,7 @@
 380. What is @Secured annotation?
 381. What is method security?
 382. What is BCrypt password encoder?
-383. What is CSRF token in Spring Security?
+383. What is the flow of Spring Security?
 384. What is CORS configuration in Spring Security?
 
 ### Security Best Practices (385-400)
@@ -498,8 +498,8 @@
 389. What is output encoding?
 390. What is password hashing vs encryption?
 391. What is salt in password hashing?
-392. What is pepper in password hashing?
-393. What is rate limiting?
+392. What is the structure of JWT?
+393. What is session-based authen vs token-based authen ?
 394. What is account lockout policy?
 395. What is two-factor authentication (2FA)?
 396. What is security headers?
