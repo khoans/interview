@@ -141,7 +141,7 @@
 107. How many non-clustered indexes can a table have?
 108. What is a composite index?
 109. What is index selectivity?
-110. What is a covering index?
+110. Have you encountered scenario where index hasn't increase query speed?
 111. What is index fragmentation? How do you fix it?
 112. Why might an index NOT be used by a query?
 
@@ -425,9 +425,9 @@
 330. What is @WebMvcTest?
 331. What is @DataJpaTest?
 332. What is TestContainers?
-333. What is an embedded database?
+333. What is context slice ? What is Test Slice?
 334. How do you test REST APIs?
-335. What is Postman/Newman?
+335. How do you test real data?
 336. What is contract testing?
 
 ### Testing Best Practices (337-350)
