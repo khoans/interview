@@ -56,11 +56,11 @@
 43. What is try-with-resources?
 44. What is the volatile keyword?
 45. What is the synchronized keyword?
-46. What is the difference between sleep() and wait()?
+46. How do we shared data between threads ?
 47. What is a thread pool? Why use it?
 48. What is the ExecutorService framework?
 49. What is the difference between Runnable and Callable?
-50. What is the CompletableFuture class?
+50. What is Thread Local ?
 
 ---
 
