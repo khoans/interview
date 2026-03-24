@@ -1,6 +1,10 @@
-# 11. Write a program to check if a number is prime.
+**11.** Check if a number is prime.
 
-## ✅ Complete Solution
+
+
+========== THIS SECTION IS THE ANSWER ==========
+
+## Solution: Check if a Number is Prime
 
 ```java
 import java.util.*;

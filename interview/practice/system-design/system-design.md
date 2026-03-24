@@ -779,3 +779,25 @@
 **359.** How did you secure sensitive data in your cloud environment? (S3 buckets, environment variables, database backups, log files)
 
 **360.** How did you handle a security incident or vulnerability discovery in your project? Walk me through the process from detection to resolution.
+
+## Questions 361-370: Nginx
+
+**361.** What is Nginx? Explain the difference between Nginx as a web server, reverse proxy, and load balancer.
+
+**362.** How does Nginx handle concurrent connections? Explain its event-driven, non-blocking architecture vs Apache's process/thread-per-connection model.
+
+**363.** What is an Nginx server block (virtual host)? How do you configure multiple domains on a single Nginx instance?
+
+**364.** How do you configure Nginx as a reverse proxy? Explain proxy_pass, upstream blocks, and header forwarding (X-Forwarded-For, X-Real-IP).
+
+**365.** How do you configure Nginx for load balancing? Explain the algorithms: round-robin, least_conn, ip_hash, and weighted.
+
+**366.** How do you configure SSL/TLS termination in Nginx? Explain ssl_certificate, ssl_protocols, and how to enforce HTTPS with a redirect.
+
+**367.** What is Nginx caching? How do you configure proxy_cache to cache upstream responses and what are the cache invalidation strategies?
+
+**368.** How do you implement rate limiting in Nginx? Explain limit_req_zone, limit_req, burst, and nodelay directives.
+
+**369.** How do you configure Nginx for WebSocket proxying? What headers (Upgrade, Connection) need to be forwarded and why?
+
+**370.** How do you tune Nginx for high performance? Explain worker_processes, worker_connections, keepalive, gzip compression, and buffer settings.

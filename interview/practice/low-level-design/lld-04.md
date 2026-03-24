@@ -1,7 +1,9 @@
 **4. Payment Processing System**
 You're building an e-commerce platform that supports multiple payment methods (Credit Card, PayPal, Bitcoin, Bank Transfer). Each payment method has different validation rules, processing logic, and fee calculations. New payment methods will be added frequently. The client code should not depend on concrete payment classes. Design the classes.
 
----
+
+
+========== THIS SECTION IS THE ANSWER ==========
 
 ## ✅ Solution 1: Simple Factory Pattern (Recommended)
 
